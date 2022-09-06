@@ -1,0 +1,105 @@
+body{
+    width: 1440px;
+}
+*{
+    font-size: 18px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 80%;
+
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 50%;
+}
+.nav-btn{
+    border-radius: 20px;
+    background-color: linear-gradient( to right, li lightgreen);
+    border: none;
+    padding-right: 150px;
+}
+article{
+    display: flex;
+}
+.article1-div{
+    padding: 300px;
+    font-size: 20px;
+}
+.article2-div{
+    padding: auto;
+    font-size: 20px ;
+    background-color: hsl(220, 16%, 96%) ;
+   
+}
+.img3{
+    width: 100px;
+    height: 100px;
+    justify-self: center;
+}
+
+.nav menu{
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    flex-basis: 50%;
+    padding: 10px,3em;
+}
+.nav2-items{
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    flex-basis: 10%;
+    padding: 100px; 
+    font-size: small;
+}
+.img-div{
+    overflow: hidden;
+    position: relative;
+    left: 0%;
+    right: 50px;
+}
+.img1{
+    position: relative;
+    height: 400px;
+    top: -10px;
+    left: -85px;
+    right: 30px;
+}
+.img{
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    height: 400px;
+}
+.article3-div{
+    padding: auto;
+    font-size: 20px;
+    text-align: right;
+    flex-basis: 90%;
+    justify-content: space-around;
+ display: flex;
+ background-color: hsl(0, 0%, 100%) ;
+}
+.img4{
+    height: 150px;
+    width: 150px;
+    padding: 50px;
+}
+footer{
+    background-color: hsl(233, 26%, 24%) ;
+    color: aliceblue;
+    height: 100px;
+}
+.nav3-items{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}

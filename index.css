@@ -1,0 +1,107 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 90%;
+}
+ ul{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+.nav-btn{
+    border-radius: 20px;
+    background: linear-gradient(to right,  hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+}
+.article-btn{
+    border-radius: 20px;
+    background: linear-gradient(to right, rgb(7, 226, 55), rgb(6, 189, 245));
+    font-size: 15px;
+}
+article{
+    display: flex;
+}
+.article-div{
+    padding-top: 300px;
+    font-size: 20px;
+}
+.img-div{
+    overflow: hidden;
+    position: relative;
+    left: 0%;
+    right: 50px;
+    
+}
+.img1{
+    position: relative;
+    width: 1000px;
+    height: 250px;
+    top: -10px;
+    left: -95px;
+    
+}
+.img2{
+    position: absolute;
+    top: -50px;
+    left: 10px;
+    height: 200px;
+    
+}
+.img-div img{
+    height: auto;
+}
+#h2{
+    padding-top: 300px
+}
+.article3{
+    display: flex;
+    background-color: rgb(240, 240, 240);
+}
+.div1, .div2, .div3,.div4{
+    width: 200px;
+    height: auto;
+    flex: 1;
+    padding: 5px;
+}
+.p1, .p2, .p3, .p4{
+    color: rgb(122, 191, 255);
+}
+#article3img{
+    width: 20px;
+    height: 20px;
+}
+.article4{
+    padding-top: 50px;
+}
+.article4-div{
+    display: flex;
+}
+.article4-div1,.article4-div2,.article4-div3,.article4-div4{
+    padding: 5px;
+    width: auto;
+    height: auto;
+    flex: 1;
+    padding-bottom: 25px;
+}
+#article4-img{
+    width: 300px;
+    height: 200px;
+    padding-left: 5px;
+}
+.img-div2,.btn-div{
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: aqua;
+}
+#logos, #imgs{
+    width: 100px;
+    height: 50px;
+    padding: 2px;
+}
+.imgs{
+    justify-content: center;
+}
